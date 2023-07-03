@@ -1,4 +1,3 @@
-
 export default function updateStudentGradeByCity(listStudents, city, newGrades) {
   const students = listStudents.filter((student) => student.location === city);
   for (const student of students) {
